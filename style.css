@@ -11,22 +11,25 @@
 }
 
 .box {
-  width: 450px;
-  height: 300px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 200px 200px;
+  border-color: transparent transparent #007bff transparent;
 }
 
 .red {
-  background: red;
+  border-bottom-color: red;
 }
 
 .blue {
-  background: blue;
+  border-bottom-color: blue;
 }
 
 .yellow {
-  background: yellow;
+  border-bottom-color: yellow;
 }
 
 .green {
-  background: green;
+  border-bottom-color: green;
 }
